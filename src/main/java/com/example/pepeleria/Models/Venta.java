@@ -5,6 +5,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
 
+import java.time.LocalDate;
+
 @Entity
 @Data
 @NoArgsConstructor
@@ -16,10 +18,12 @@ public class Venta {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idVenta;
-    private String fecha;
+    private LocalDate fecha;
+
     @ManyToOne
     @JoinColumn(name = "id_cliente")
     private Cliente cliente;
+
     @ManyToOne
     @JoinColumn(name = "id_empleado")
     private Empleado empleado;
