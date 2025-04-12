@@ -95,3 +95,24 @@ Para realizar pruebas a la API, se recomienda utilizar **Postman**. A continuaci
 - **Respuesta esperada**:
   
 ![img_9.png](img_9.png)
+
+## 5 registros por tabla
+
+### **🦾empleados**
+![img_11.png](img_11.png)
+
+### **🤑clientes**
+![img_12.png](img_12.png)
+
+### **🛞proveedores**
+![img_13.png](img_13.png)
+
+### **🛒productos**
+![img_14.png](img_14.png)
+
+### **🛎️ventas**
+![img_15.png](img_15.png)
+
+### **🛎🤝Detalle de venta**
+![img_16.png](img_16.png)
+ se evidencia que el cliente 5 oseaAna lopez fue atendida por el vendedor Carlos dondela venta consistio en 5 "Pegamentos Fábrica Nacional"
